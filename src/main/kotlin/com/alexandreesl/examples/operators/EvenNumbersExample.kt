@@ -1,4 +1,4 @@
-package com.alexandreesl.examples
+package com.alexandreesl.examples.operators
 
 import io.reactivex.Observable
 import java.util.*
