@@ -14,7 +14,8 @@ repositories {
 
 dependencies {
     runtime group: 'io.reactivex.rxjava2', name: 'rxkotlin', version: '2.4.0'
-    compile group: 'io.reactivex.rxjava2', name: 'rxjava', version: '2.2.19'
+    compile group: 'io.reactivex.rxjava2', name: 'rxjava', version: '2.2.21'
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk8"
 }
 
 compileKotlin {
